@@ -1,6 +1,6 @@
 /*
 Author: WEi Lin Li
-Course:  CSCI-136
+Course:  CSCI-135
 Instructor: Professor Tong Yi and Professor Zamansky
 Assignment Lab 1A Smaller
 
