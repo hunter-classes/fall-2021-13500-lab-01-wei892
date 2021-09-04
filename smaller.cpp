@@ -1,5 +1,5 @@
 /*
-Name: WEi Lin Li
+Author: WEi Lin Li
 Course:  CSCI-136
 Instructor: Professor Tong Yi and Professor Zamansky
 Assignment Lab 1A Smaller
