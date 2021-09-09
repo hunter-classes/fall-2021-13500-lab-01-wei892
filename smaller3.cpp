@@ -44,7 +44,7 @@ int main()
       smaller = num3;
   }
 
-  cout << "The smaller of the three is " << smaller;
+  cout << "The smaller of the three is " << smaller << endl;
 
   return 0;
 }
