@@ -8,21 +8,20 @@ This will read three integer inputs and print out the smallest of the three
  */
 
 #include <iostream>
-using namespace std;
 
 int main()
 {
-  cout << "Enter the first number: ";
+  std::cout << "Enter the first number: ";
   int num1;
-  cin >> num1;
+  std::cin >> num1;
 
-  cout << "Enter the second number: ";
+  std::cout << "Enter the second number: ";
   int num2;
-  cin >> num2;
+  std::cin >> num2;
 
-  cout << "Enter the third number: ";
+  std::cout << "Enter the third number: ";
   int num3;
-  cin>> num3;
+  std::cin>> num3;
 
   int smaller;
   if (num1 > num2)
@@ -44,7 +43,7 @@ int main()
       smaller = num3;
   }
 
-  cout << "The smaller of the three is " << smaller << endl;
+  std::cout << "The smaller of the three is " << smaller << std::endl;
 
   return 0;
 }
