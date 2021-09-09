@@ -9,17 +9,16 @@ Will take two user integer inputs and prints out the smaller of the two
 
 
 #include <iostream>
-using namespace std;
 
 int main()
 {
-  cout << "Enter the first number: ";
+  std::cout << "Enter the first number: ";
   int num1;
-  cin >> num1;
+  std::cin >> num1;
 
-  cout << "Enter the second number: ";
+  std::cout << "Enter the second number: ";
   int num2;
-  cin >> num2;
+  std::cin >> num2;
 
   int smaller;
   if (num1 > num2)
@@ -27,7 +26,7 @@ int main()
   else
     smaller = num1;
   
-  cout << "The smaller of the two is " << smaller << endl;
+  std::cout << "The smaller of the two is " << smaller << std::endl;
   
   return 0;
 }
