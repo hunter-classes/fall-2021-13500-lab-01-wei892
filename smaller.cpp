@@ -18,20 +18,16 @@ int main()
   cin >> num1;
 
   cout << "Enter the second number: ";
-  int num 2;
+  int num2;
   cin >> num2;
 
   int smaller;
-  if (num1 > num2);
-  {
+  if (num1 > num2)
     smaller = num2;
-  }
   else
-  {
     smaller = num1;
-  }
-
-  cout << "The smaller of the two is " << smaller;
+  
+  cout << "The smaller of the two is " << smaller << endl;
   
   return 0;
 }
