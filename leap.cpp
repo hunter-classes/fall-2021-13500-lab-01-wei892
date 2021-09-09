@@ -9,15 +9,14 @@ it is a leap year or a common year
  */
 
 #include <iostream>
-using namespace std;
 
 int main()
 {
-  cout << "Enter year: ";
+  std::cout << "Enter year: ";
   int year;
-  cin >> year;
+  std::cin >> year;
 
-  boolean leap_year = false;
+  bool leap_year = false;
 
   if (year % 4 != 0)
     leap_year = false;
@@ -30,9 +29,9 @@ int main()
 
 
   if (leap_year == true)
-    cout << "Leap year";
+    std::cout << "Leap year" << std::endl;
   else
-    cout << "Common year";
+    std::cout << "Common year" << std::endl;
   
   return 0;
 }
